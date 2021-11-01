@@ -1,0 +1,19 @@
+{
+  "name": "jsbase",
+  "version": "1.0.0",
+  "description": "pruebas unitarias con jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:indexdeltest": "jest ./src/__test__/index.test.js",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1"
+  }
+}
+
+
